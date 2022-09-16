@@ -1,0 +1,16 @@
+{
+	"name": "SAPADP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SapHana",
+		"typeProperties": {
+			"connectionString": "servernode=172.16.172.33:30241;uid=ADH_USER1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0YmQxY2JjZC1mODQ4LTQ4ZTEtYjYzZi02NjdmMGU0NzdkN2YiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ADP",
+			"type": "IntegrationRuntimeReference"
+		},
+		"annotations": []
+	}
+}
