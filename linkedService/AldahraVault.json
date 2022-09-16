@@ -1,0 +1,10 @@
+{
+	"name": "AldahraVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://AldahraVault.vault.azure.net/"
+		}
+	}
+}
