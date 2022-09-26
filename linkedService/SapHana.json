@@ -1,0 +1,16 @@
+{
+	"name": "SapHana",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SapHana",
+		"typeProperties": {
+			"connectionString": "servernode=ADP;uid=ADH_USER1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyNWU1ZGIxMy0wMTQ0LTRmZjYtYmYwYi00ZWQyZjRmYTU4N2MiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
