@@ -1,0 +1,7 @@
+{
+	"name": "SAPIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "SAPIR"
+	}
+}
