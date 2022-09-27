@@ -6,8 +6,8 @@
 		"type": "SqlServer",
 		"typeProperties": {
 			"connectionString": "integrated security=True;data source=ALDAHRACOGNOSDB\\PRDCOGNOS;initial catalog=SAPDM",
-			"userName": "Nanda.Kumar",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNjIyMDQ1My1kNGVlLTQ3ZDEtYTMxYi1lNTRlNDMyY2Q3YWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userName": "Nanda.Kumar@aldahra.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0YTk1NzYyYy00ZGRjLTQ5YTQtODI0Ny00MGQ4MDg4Y2JjMjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SelfhostedIR",
