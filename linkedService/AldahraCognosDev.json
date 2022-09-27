@@ -7,7 +7,11 @@
 		"typeProperties": {
 			"connectionString": "integrated security=True;data source=ALDAHRACOGNOSDB\\PRDCOGNOS;initial catalog=SAPDM",
 			"userName": "Nanda.Kumar",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEMyNjkzOTk0LTk1NzctNDhERi04MTVBLTY2M0MxMUNDN0NEN18wNTcwZGI2NC04ZDE1LTRmMzQtYTIzNi01MWQ4MTQ2MTY3MDQiDQp9"
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNjIyMDQ1My1kNGVlLTQ3ZDEtYTMxYi1lNTRlNDMyY2Q3YWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedIR",
+			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
