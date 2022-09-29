@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=ALDAHRACOGNOSDB\\PRDCOGNOS;initial catalog=SAPDM",
+			"userName": "Nanda.kumar@aldahra.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiY2NjOTNmNC1lZmYxLTQ5NGItOWY4ZS1kYjhlZjU0ZjI4MWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
