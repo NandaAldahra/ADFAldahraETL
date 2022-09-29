@@ -1,5 +1,5 @@
 {
-	"name": "SAPADP",
+	"name": "SAPADPP",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"type": "SapHana",
