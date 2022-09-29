@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerDev",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=COGNOS-BI\\COGNOSDB;initial catalog=Project",
+			"userName": "Nanda.kumar@aldahra.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlMmEwOTAwMi01ZDNlLTQxNzQtOGNkNi1lMjA0Nzc1ODE0MTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
