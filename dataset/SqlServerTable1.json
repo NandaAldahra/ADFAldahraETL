@@ -1,0 +1,212 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerDev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Item_Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Item",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Family_Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Family",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sub_Family_Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sub_Family",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product_Category_Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product_Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Brand",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Statistical_group",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Statistical_group1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Statistical_group2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Statistical_group3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Statistical_group5",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Analytical_dimension",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Accounting_code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Management_code",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Product_status",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Service_life_start",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Service_life_end",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Stock_unit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Purchase_unit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sales_unit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EU_unit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Purchase_unit1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Pur_Stk_Conv",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 7
+			},
+			{
+				"name": "Put_Stk_Conv1",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 7
+			},
+			{
+				"name": "Stock_management",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Lot_management",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Cost_group",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Manufactured_flag",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Sold_flag",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Creation_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Update_date",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Update_user",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sage",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Prod_Source",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sal_Stk_Conv",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 7
+			},
+			{
+				"name": "Weight_KG",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 7
+			},
+			{
+				"name": "SearchKey",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Filter",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Product"
+		}
+	}
+}
